@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>penguin with tailwind</title>
+
+    <script src="https://kit.fontawesome.com/85f20e9cde.js" crossorigin="anonymous"></script>
+
+    <!-- tailwind links -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <header class="bg-blue-950 h-16">
+        <section class="container mx-auto px-4 md:px-16 lg:px-16">
+            <nav-bar class="flex py-4 justify-between items-center">
+                <div class="flex gap-8">
+                    <img src="./assets/logo-3.png" alt="">
+                    <div class="text-white flex gap-4 font-semibold  hidden lg:flex md:flex">
+                        <a href="">Home</a>
+                        <a href="">About</a>
+                        <a href="">Contact</a>
+                        <a href="">Blogs</a>
+                        <a href="">Services</a>
+                    </div>
+                </div>
+                <div class="text-white font-semibold flex gap-4  hidden lg:flex md:flex">
+                    <button>Login</button>
+                    <button class="px-4 py-2 rounded-md hover:bg-blue-300 bg-orange-600 text-white">Get started</button>
+                </div>
+
+            </nav-bar>
+        </section>     
+    </header>
+
+    <main>
+        <section class="bg-blue-900 h-[460px]">
+           <div class="container mx-auto px-4 md:px-16 lg:px-16">
+             <div class="flex flex-col text-center gap-4 py-[72px]">
+                <div class="text-white space-y-6">
+                    <h1 class=" text-4xl md:text-5xl lg:text-5xl font-bold">Creative way to <br> Showcase your <span class="text-orange-500">App</span></h1>
+                    <p>Your app gets maximum attention and gets more and more downloads</p>
+                  </div>
+                  <div class="flex gap-4 justify-center">
+                    <button class="px-4 py-2 rounded-md hover:bg-blue-300 bg-orange-600 text-white font-semibold">Get a quote</button>
+                     <button class="text-white"><i class="fa-solid fa-circle-play"></i>
+                        Play video
+                     </button>
+                  </div>
+             </div>
+           </div>
+           <div class="w-[750px] flex mx-auto translate-y-10">
+            <img src="./assets/hero-thumb-4.png" alt="">
+           </div>
+        </section>
+    </main>
+  
+</body>
+
+</html>
